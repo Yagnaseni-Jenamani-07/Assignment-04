@@ -27,7 +27,7 @@ class Student {
         Student[] students = new Student[3];
         Scanner sc = new Scanner(System.in);
         
-        // Accept details for all 50 students
+        // Accept details for all 03 students
         for (int i = 0; i < 3; i++) {
             System.out.println("\n--- Enter details for Student " + (i + 1) + " ---");
             students[i] = new Student();
@@ -47,4 +47,5 @@ class Student {
         highestCGPAStudent.display();
     }
 }
+
 
